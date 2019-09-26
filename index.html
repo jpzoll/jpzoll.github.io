@@ -1,0 +1,159 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+    body {
+        background: orange;
+    }
+    nav {
+        padding-bottom: 10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -10px;
+        background: rgb(1, 1, 82);
+    }
+    nav h1 {
+        font-family: Lobster;
+        width: 20%;
+        display: inline;
+        padding-left: 10px;
+        color: white;
+    }
+    .navigation-links {
+        display: inline-block;
+        font-family: arial black;
+        padding-left: 60px;
+    }
+    .navigation-links li {
+        list-style-type: none;
+        display: inline-block;
+        padding-right: 50px;;
+    }
+    .navigation-links li a {
+        text-decoration: none;
+        color: white;
+    }
+    div {
+        background: white;
+        margin: 5px;
+        margin-left: -5px;
+        margin-right: -5px;
+        padding: 0;
+    }
+    .intro {
+        background: white;  /*or rgb(233, 233, 233)*/
+        position: relative;
+        border: outset;
+        padding: 25px;
+        padding-bottom: 30px;
+    }
+    .pfp {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: -10%;
+
+        height: 200px;
+        border-radius: 10%;
+        float: left;
+        border: solid black;
+    }
+    .intro-info {
+        padding: 5%;
+        font-size: 20px;
+        font-family: Courier;
+        text-align: center;
+        padding-top: 80px;
+        margin-left: 10px;
+    }
+    .about-me {
+        border: outset;
+        background: white;
+        font-size: 30px;
+        font-family: Courier;
+        font-weight: bold;
+    }
+    .header {
+        border: solid;
+        background: rgb(1, 1, 82);
+        font-family: lobster;
+        color: white;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .portfolio {
+        border: outset;
+        background: white;
+    }
+    .portfolio-list {
+        font-family: courier;
+        font-weight: bold;
+    }
+    .portfolio-list li {
+    }
+    .portfolio-list a{
+        text-decoration: none;
+        font-family: courier;
+        font-weight: bold;
+    }
+    .contact-image-list {
+        list-style-type: none;
+        display: inline-block;
+    }
+    .contact-image-list li {
+        display: inline-block;
+        padding: 20px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joseph Zoll</title>
+    </head>
+    <body>
+        <nav>
+            <h1>Joseph Zoll</h1>
+            <ul class="navigation-links">
+                <li><a href="#about-me-header">About</a></li>
+                <li><a href="#portfolio-header">Portfolio</a></li>
+                <li><a href="#contact-header">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <img class="pfp" src="C:\Users\Joe Zoll\Pictures\life\file-2.png">
+            <strong><p class="intro-info"> Hello, I'm <font color="orange">Joe Zoll</font></strong><br>
+            Syracuse University '22
+            </p>
+        </div>
+        <div class="about-me">
+            <h3 class="header" id="about-me-header">About</h3>
+            <p style="padding: 5%;">Welcome to my personal webpage! This is currently a 
+                work in progress, but the intended goal is to make this 
+                page a showcase for me as a person and my work. I am from 
+                Long Island, New York, and am on track for my Bachelor's 
+                in Computer Science at Syracuse University (2022).</p>
+        </div>
+        <div class="portfolio">
+            <h3 class="header" id="portfolio-header">Portfolio</h3>
+            <ul class="portfolio-list">
+                <li><a href="file:///D:\Coding\Python\NBA 2K19; Python Edition">NBA 2K19: Python Edition</a></li> <br>
+                    Fall 2018 <br>
+                    <img style="padding-top: 15px;"src="D:\Syracuse University '22\Freshman Year\Fall Semester\ECS 102\Final Project\jpzollFinalProject\finalProjectScreenshot.PNG" height=150>
+            </ul>
+        </div> 
+        <div class="contact">
+            <h3 class="header" id="contact-header">Contact</h3>
+            <ul class="contact-image-list">
+                <li><a href="https://www.linkedin.com/in/joseph-zoll-56ba38181/"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" height=120></a></li>
+                <li><a href="jpzoll@syr.edu"><img src="https://luminfire.com/wp-content/uploads/2018/08/Email-Icon.png" height=120</a></li>
+            </ul>
+
+        
+
+        </div>
+    </body>
+    
+
+
+</html>
+
+<!--Try to make class that encapsulates every header for each div element-->
