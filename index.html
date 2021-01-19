@@ -1,159 +1,202 @@
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-    body {
-        background: orange;
-    }
-    nav {
-        padding-bottom: 10px;
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-top: -10px;
-        background: rgb(1, 1, 82);
-    }
-    nav h1 {
-        font-family: Lobster;
-        width: 20%;
-        display: inline;
-        padding-left: 10px;
-        color: white;
-    }
-    .navigation-links {
-        display: inline-block;
-        font-family: arial black;
-        padding-left: 60px;
-    }
-    .navigation-links li {
-        list-style-type: none;
-        display: inline-block;
-        padding-right: 50px;;
-    }
-    .navigation-links li a {
-        text-decoration: none;
-        color: white;
-    }
-    div {
-        background: white;
-        margin: 5px;
-        margin-left: -5px;
-        margin-right: -5px;
-        padding: 0;
-    }
-    .intro {
-        background: white;  /*or rgb(233, 233, 233)*/
-        position: relative;
-        border: outset;
-        padding: 25px;
-        padding-bottom: 30px;
-    }
-    .pfp {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-        margin-right: -10%;
-
-        height: 200px;
-        border-radius: 10%;
-        float: left;
-        border: solid black;
-    }
-    .intro-info {
-        padding: 5%;
-        font-size: 20px;
-        font-family: Courier;
-        text-align: center;
-        padding-top: 80px;
-        margin-left: 10px;
-    }
-    .about-me {
-        border: outset;
-        background: white;
-        font-size: 30px;
-        font-family: Courier;
-        font-weight: bold;
-    }
-    .header {
-        border: solid;
-        background: rgb(1, 1, 82);
-        font-family: lobster;
-        color: white;
-        padding: 10px;
-        margin-top: 0px;
-    }
-    .portfolio {
-        border: outset;
-        background: white;
-    }
-    .portfolio-list {
-        font-family: courier;
-        font-weight: bold;
-    }
-    .portfolio-list li {
-    }
-    .portfolio-list a{
-        text-decoration: none;
-        font-family: courier;
-        font-weight: bold;
-    }
-    .contact-image-list {
-        list-style-type: none;
-        display: inline-block;
-    }
-    .contact-image-list li {
-        display: inline-block;
-        padding: 20px;
-    }
-</style>
-
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>Joseph Zoll</title>
-    </head>
-    <body>
-        <nav>
-            <h1>Joseph Zoll</h1>
-            <ul class="navigation-links">
-                <li><a href="#about-me-header">About</a></li>
-                <li><a href="#portfolio-header">Portfolio</a></li>
-                <li><a href="#contact-header">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="intro">
-            <img class="pfp" src="C:\Users\Joe Zoll\Documents\GitHub\jpzoll.github.io\file-2.png">
-            <strong><p class="intro-info"> Hello, I'm <font color="orange">Joe Zoll</font></strong><br>
-            Syracuse University '22
-            </p>
-        </div>
-        <div class="about-me">
-            <h3 class="header" id="about-me-header">About</h3>
-            <p style="padding: 5%;">Welcome to my personal webpage! This is currently a 
-                work in progress, but the intended goal is to make this 
-                page a showcase for me as a person and my work. I am from 
-                Long Island, New York, and am on track for my Bachelor's 
-                in Computer Science at Syracuse University (2022).</p>
-        </div>
-        <div class="portfolio">
-            <h3 class="header" id="portfolio-header">Portfolio</h3>
-            <ul class="portfolio-list">
-                <li><a href="file:///D:\Coding\Python\NBA 2K19; Python Edition">NBA 2K19: Python Edition</a></li> <br>
-                    Fall 2018 <br>
-                    <img style="padding-top: 15px;"src="D:\Syracuse University '22\Freshman Year\Fall Semester\ECS 102\Final Project\jpzollFinalProject\finalProjectScreenshot.PNG" height=150>
-            </ul>
-        </div> 
-        <div class="contact">
-            <h3 class="header" id="contact-header">Contact</h3>
-            <ul class="contact-image-list">
-                <li><a href="https://www.linkedin.com/in/joseph-zoll-56ba38181/"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" height=120></a></li>
-                <li><a href="jpzoll@syr.edu"><img src="https://luminfire.com/wp-content/uploads/2018/08/Email-Icon.png" height=120</a></li>
-            </ul>
+	<head>
+		<title>Joe Zoll</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-        </div>
-    </body>
-    
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Joe Zoll</h1>
+						<p>With Great Power, there must also come -- Great Responsibility.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Joe Zoll</a>
+					</header>
 
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">This is Joe Zoll</a></li>
+						</ul>
+						<ul class="icons"> 
+							<!-- li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> 
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/joseph-zoll-56ba38181" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/jpzoll" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Who Am I?</a></h2>
+									<span >Computer Science Student | Syracuse University</span>
+		
+								</header>
+								<a href="https://twitter.com/CuseHacks/status/1229222677245841410?s=20" class="image main"><img src="videos/IMG_2944_Trim_1.gif" alt="" /></a>
+								<!--<ul class="actions special">
+									<li><a href="https://twitter.com/CuseHacks/status/1229222677245841410?s=20" class="button large">Full Story</a></li>
+								</ul> -->
+								<p>I am currently a junior Computer Science Major at Syracuse University (Class of 2022). I am experienced in <b>Python, Front End Web Development with HTML and CSS, GameMaker Studio 2, Unity/C#, some experience with Javascript and Haskell.</b> I also do video editing on the side with proficiency in Davinci Resolve 16. <p>You can see my projects down below! </p></p>
+								<p>I live everyday through my mantra of <i>Great Power & Great Responsibility</i>, working to use the incredible gift of technology to create and provide value to people around the world.</p>
+							</article>
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Check it out!</a></h2>
+									<p></p>
+								</header>
+								<a href="https://twitter.com/CuseHacks/status/1229222677245841410?s=20" class="image main"><img src="images/CuseHacks_2020.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://twitter.com/CuseHacks/status/1229222677245841410?s=20" class="button large">Full Story</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">February 2020</span>
+										<h2><a href="https://moonside-studios.itch.io/the-nightmare">The<br />
+										Nightmare</a></h2>
+									</header>
+									<a href="https://moonside-studios.itch.io/the-nightmare" class="image fit"><img src="images/Nightmare1.jpg" alt="" /></a>
+									<a href="https://moonside-studios.itch.io/the-nightmare" class="image fit"><img src="images/Nightmare2.jpg" alt="" /></a>
+									<p>In a duo collaboration with my brother Matthew Zoll, we created this original top-down 2D mini-game using the <a href = "https://www.yoyogames.com/gamemaker"><i>GameMaker Studio 2</i>.</p>
+									<ul class="actions special">
+										<li><a href="https://moonside-studios.itch.io/the-nightmare" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 2020</span>
+										<h2><a href="https://joezoll.itch.io/snake">Snake<br />
+										Recreation</a></h2>
+									</header>
+									<a href="https://joezoll.itch.io/snake" class="image fit"><img src="images/Snake.png" alt="" /></a>
+									<p>For my second attempt at a classic game recreation, I programmed and designed the art for my version of <i>Snake</i>, using <a href = "https://www.yoyogames.com/gamemaker"><i>GameMaker Studio 2</i> </a>.</p>
+									<p>The art for this game recreation was made in <a href = "https://www.aseprite.org/"><i>Aseprite</i> </a>. </p>
+									<ul class="actions special">
+										<li><a href="https://joezoll.itch.io/snake" class="button">Check it out</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">July 2019</span>
+										<h2><a href="https://github.com/jpzoll/Pong">
+										Pong <br> Recreation</a></h2>
+									</header>
+									<a href="https://github.com/jpzoll/Pong" class="image fit"><img src="images/FirstServe.PNG" alt="" /></a>
+									<p>Created using Python and the Pygame module.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jpzoll/Pong" class="button">Check it out!</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">November 2018</span>
+										<h2><a href="https://github.com/jpzoll/NBA2K19-Python-Edition">
+										NBA 2K19: <br> Python Edition</a></h2>
+									</header>
+									<a href="https://github.com/jpzoll/NBA2K19-Python-Edition" class="image fit"><img src="images/Lakers_VS_Warriors.PNG" alt="" /></a>
+									<p>Created using Python and the graphics.py module.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jpzoll/NBA2K19-Python-Edition" class="button">Check it out!</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+		<!--					<footer>
+								<div class="pagination">
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+						-->
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="https://formspree.io/f/xknpygyk">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<!--<label for="email">Email</label>
+										<input type="text" name="email" id="email" /> -->
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+									<!--<li><a href="mailto:jpzoll@syr.edu" class="button">Send Message</a></li> -->
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href = "mailto:jpzoll@syr.edu">jpzoll@syr.edu</a></p>
+							</section>
+							<section>
+								<h3>Socials</h3>
+								<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/joseph-zoll-56ba38181" class="icon brands alt fa-linkedin"><span class="label">Instagram</span></a></li> 
+								<li><a href="https://github.com/jpzoll" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<!--		<li><a href="https://www.linkedin.com/in/joseph-zoll-56ba38181" class="icon brands alt fa-linkedin"><img src="images/linkedin1.png"></a></li> -->
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; 2021</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-
-<!--Try to make class that encapsulates every header for each div element-->
