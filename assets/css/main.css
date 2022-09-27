@@ -2632,10 +2632,28 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.second {
+				display: block;
+				margin: 4rem 0;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.image.second:first-child {
+				margin-top: 0;
+			}
+
+			.image.second img {
+				width: 100%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 100%;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.image.main:first-child {
@@ -3310,7 +3328,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 50vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
